@@ -1,0 +1,35 @@
+.coffee-footer {
+  background-color: #F8F1E9; /* Light beige */
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  flex-direction: column; /* Added */
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #604020; /* Dark brown */
+  margin-right: 16px;
+}
+
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #A38671; /* Light brown */
+  margin-left: 8px;
+}
+
+.social-icon:hover {
+  color: #8B4513; /* Brown */
+}

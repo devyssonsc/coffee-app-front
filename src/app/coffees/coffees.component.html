@@ -1,0 +1,12 @@
+<div class="coffee-list-container">
+  <h1 class="title">Coffee Menu</h1>
+  <div class="coffee-list-grid">
+    <div class="coffee-card" *ngFor="let coffee of coffeList">
+      <img class="coffee-image" [src]="coffee.image" alt="{{coffee.name}}">
+      <h3 class="coffee-name">{{coffee.name}}</h3>
+      <p class="coffee-price">{{coffee.price | currency:'USD':'symbol'}}</p>
+      <p class="coffee-description">{{coffee.description}}</p>
+    </div>
+  </div>
+  <button class="order-button" routerLink="/order">Order Now</button>
+</div>
