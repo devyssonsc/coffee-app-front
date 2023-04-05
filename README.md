@@ -1,4 +1,4 @@
-## Disclaimer 
+# Disclaimer 
 
 This frontend project was created 90% by chatGPT. Whole html and css stuff.
 
